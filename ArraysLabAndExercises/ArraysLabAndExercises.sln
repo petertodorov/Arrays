@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1ArraysLab", "1ArraysLab\1ArraysLab.csproj", "{8A5CE421-66CE-4030-AA75-45756CB669DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3LabSumMinMaxFirstLastAverage", "3LabSumMinMaxFirstLastAverage\3LabSumMinMaxFirstLastAverage.csproj", "{23115DB7-7B26-42FF-88EC-23C6704F18BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8A5CE421-66CE-4030-AA75-45756CB669DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A5CE421-66CE-4030-AA75-45756CB669DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A5CE421-66CE-4030-AA75-45756CB669DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23115DB7-7B26-42FF-88EC-23C6704F18BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23115DB7-7B26-42FF-88EC-23C6704F18BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23115DB7-7B26-42FF-88EC-23C6704F18BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23115DB7-7B26-42FF-88EC-23C6704F18BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
