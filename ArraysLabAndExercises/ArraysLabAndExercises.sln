@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1ArraysLab", "1ArraysLab\1A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3LabSumMinMaxFirstLastAverage", "3LabSumMinMaxFirstLastAverage\3LabSumMinMaxFirstLastAverage.csproj", "{23115DB7-7B26-42FF-88EC-23C6704F18BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4LastKNumbersSumsSequence", "4LastKNumbersSumsSequence\4LastKNumbersSumsSequence.csproj", "{4FF33CE9-A276-4429-8D7E-50D75E9BE860}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{23115DB7-7B26-42FF-88EC-23C6704F18BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23115DB7-7B26-42FF-88EC-23C6704F18BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23115DB7-7B26-42FF-88EC-23C6704F18BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF33CE9-A276-4429-8D7E-50D75E9BE860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF33CE9-A276-4429-8D7E-50D75E9BE860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF33CE9-A276-4429-8D7E-50D75E9BE860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF33CE9-A276-4429-8D7E-50D75E9BE860}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
