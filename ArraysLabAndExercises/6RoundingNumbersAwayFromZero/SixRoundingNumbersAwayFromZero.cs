@@ -11,7 +11,7 @@ using System.Threading.Tasks;
         decimal[] numbers = Console.ReadLine().Replace('.', ',').Split(' ').Select(decimal.Parse).ToArray();
         for (int i = 0; i < numbers.Length; i++)
         {
-            decimal roundedNum = Math.Round(numbers[i], MidpointRounding.AwayFromZero);
+            int roundedNum = (int)Math.Round(numbers[i], MidpointRounding.AwayFromZero);
             Console.WriteLine($"{numbers[i]} => {roundedNum}");
         }
     }
