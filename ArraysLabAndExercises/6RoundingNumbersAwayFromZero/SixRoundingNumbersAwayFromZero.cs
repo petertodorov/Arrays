@@ -13,12 +13,10 @@ using System.Threading.Tasks;
         {
             int roundedNum = (int)Math.Round(numbers[i], MidpointRounding.AwayFromZero);
             Console.WriteLine($"{numbers[i]} => {roundedNum}");
-            
         }
         Console.WriteLine("\nResults from SimpleSolution\n");
         SimpleSoulion(numbers);
     }
-
     private static void SimpleSoulion(decimal[] numbers)
     {
         foreach (var num in numbers)
