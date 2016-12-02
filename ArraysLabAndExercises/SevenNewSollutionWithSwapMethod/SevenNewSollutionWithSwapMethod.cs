@@ -9,18 +9,12 @@ class SevenNewSollutionWithSwapMethod
     static void Main(string[] args)
     {
         int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-        int m = new int();
-        int n = new int();
         for (int i = 0; i < numbers.Length / 2; i++)
         {
             SwapElements(numbers, i, numbers.Length - 1 - i);
-        }
-        
+        }   
         Console.WriteLine(String.Join(" ", numbers));
     }
-
-    
-
     private static void SwapElements(int[] numbers, int i, int j)
     {
         int old = numbers[i];

@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-class SwapMethodWithReverse
+class EightSumArrays
 {
     static void Main()
     {
@@ -15,10 +14,10 @@ class SwapMethodWithReverse
         int lengthResultArr = Math.Max(lengthFirst, lengthSecond);
         int[] resultArr = new int[lengthResultArr];
 
-        WriteSumArrays(firstArr, secondArr,resultArr, lengthFirst, lengthSecond);
+        WriteSumArrays(firstArr, secondArr, resultArr, lengthFirst, lengthSecond);
     }
 
-    private static void WriteSumArrays(int []firstArr, int [] secondArr,int[] resultArr, int lengthFirst, int lengthSecond)
+    private static void WriteSumArrays(int[] firstArr, int[] secondArr, int[] resultArr, int lengthFirst, int lengthSecond)
     {
         for (int i = 0; i < resultArr.Length; i++)
         {
@@ -29,4 +28,4 @@ class SwapMethodWithReverse
         Console.WriteLine(String.Join(" ", resultArr));
     }
 }
- 
+

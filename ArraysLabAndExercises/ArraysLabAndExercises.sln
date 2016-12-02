@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7ReverseAnArrayOfStrings", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenNewSollutionWithSwapMethod", "SevenNewSollutionWithSwapMethod\SevenNewSollutionWithSwapMethod.csproj", "{9CC84965-C267-4808-8D45-B0EF4336C752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8SumArrays", "8SumArrays\8SumArrays.csproj", "{D80DC1A8-4323-4DB3-886E-497C670A5828}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9CC84965-C267-4808-8D45-B0EF4336C752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CC84965-C267-4808-8D45-B0EF4336C752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CC84965-C267-4808-8D45-B0EF4336C752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D80DC1A8-4323-4DB3-886E-497C670A5828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80DC1A8-4323-4DB3-886E-497C670A5828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80DC1A8-4323-4DB3-886E-497C670A5828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80DC1A8-4323-4DB3-886E-497C670A5828}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
