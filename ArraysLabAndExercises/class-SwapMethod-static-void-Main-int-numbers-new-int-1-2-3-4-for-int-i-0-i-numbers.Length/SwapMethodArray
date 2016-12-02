@@ -1,0 +1,20 @@
+class SwapMethod
+{
+    static void Main()
+    {
+        int[] numbers = new int[] { 1, 2, 3, 4 };
+        for (int i = 0; i < numbers.Length / 2; i++)
+        {
+            Swap(numbers, i);
+          
+        }
+        Console.WriteLine(String.Join(" ", numbers));
+    }
+
+    public static void Swap(int[] numbers, int i)
+    {
+        int oldSeq = numbers[i];
+        numbers[i] = numbers[numbers.Length - i - 1];
+        numbers[numbers.Length - 1 - i] = oldSeq;
+    }
+}
