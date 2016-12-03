@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8SumArrays", "8SumArrays\8S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9CondenseArrayToNumber", "9CondenseArrayToNumber\9CondenseArrayToNumber.csproj", "{A378B843-9760-42A6-BA6F-684923614B56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10ExtractMiddle1Or2Or3Elements", "10ExtractMiddle1Or2Or3Elements\10ExtractMiddle1Or2Or3Elements.csproj", "{45E56909-EB00-4C93-A616-84F8077055E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A378B843-9760-42A6-BA6F-684923614B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A378B843-9760-42A6-BA6F-684923614B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A378B843-9760-42A6-BA6F-684923614B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45E56909-EB00-4C93-A616-84F8077055E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E56909-EB00-4C93-A616-84F8077055E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E56909-EB00-4C93-A616-84F8077055E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E56909-EB00-4C93-A616-84F8077055E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

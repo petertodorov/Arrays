@@ -9,8 +9,8 @@ class CondenseArrayToNumber
     static void Main(string[] args)
     {
         int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-        
-        while (numbers.Length>1)
+
+        while (numbers.Length > 1)
         {
             int[] condensed = new int[numbers.Length - 1];
             for (int i = 0; i < condensed.Length; i++)
@@ -19,9 +19,7 @@ class CondenseArrayToNumber
             }
             numbers = condensed;
         }
-        
         Console.WriteLine(String.Join(" ", numbers));
-        
     }
 }
 
