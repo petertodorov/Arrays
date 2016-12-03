@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1ArraysLab", "1ArraysLab\1ArraysLab.csproj", "{8A5CE421-66CE-4030-AA75-45756CB669DA}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SevenNewSollutionWithSwapMethod", "SevenNewSollutionWithSwapMethod\SevenNewSollutionWithSwapMethod.csproj", "{9CC84965-C267-4808-8D45-B0EF4336C752}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8SumArrays", "8SumArrays\8SumArrays.csproj", "{D80DC1A8-4323-4DB3-886E-497C670A5828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9CondenseArrayToNumber", "9CondenseArrayToNumber\9CondenseArrayToNumber.csproj", "{A378B843-9760-42A6-BA6F-684923614B56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{D80DC1A8-4323-4DB3-886E-497C670A5828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D80DC1A8-4323-4DB3-886E-497C670A5828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D80DC1A8-4323-4DB3-886E-497C670A5828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A378B843-9760-42A6-BA6F-684923614B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A378B843-9760-42A6-BA6F-684923614B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A378B843-9760-42A6-BA6F-684923614B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A378B843-9760-42A6-BA6F-684923614B56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
