@@ -8,11 +8,10 @@ class TenExtractMiddleElements
 {
     static void Main(string[] args)
     {
-        int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+        int[] numbers = Console.ReadLine().Split(new char[] { ' ' },StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
         int [] result = ExtractcMiddleArr(numbers);
-        Console.WriteLine("{ " + String.Join(" ", result) + " }");
+        Console.WriteLine("{ " + String.Join(", ", result) + " }");
     }
-
     private static int[] ExtractcMiddleArr(int[] numbers)
     {
         int start = (numbers.Length / 2) - 1;
