@@ -9,20 +9,26 @@ class TenExtractMiddleElements
     static void Main(string[] args)
     {
         int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-        int n = numbers.Length;
-        int coef = numbers.Length / 2;
-        int coefOdd = ((numbers.Length - 1) / 2);
-        if (n == 1)
+        int [] result = ExtractcMiddleArr(numbers);
+        Console.WriteLine("{ " + String.Join(" ", result) + " }");
+    }
+
+    private static int[] ExtractcMiddleArr(int[] numbers)
+    {
+        int start = (numbers.Length / 2) - 1;
+        int end = (numbers.Length / 2) + 1;
+        int length = numbers.Length;
+        if ( length== 1)
         {
-            Console.WriteLine(numbers[0]);
+            return numbers;
         }
-        else if (n % 2 == 0)
+        else if (length % 2 == 0)
         {
-            Console.WriteLine($"{numbers[coef - 1]},  {numbers[coef]}");
+            return new int[] { numbers[start], numbers[end - 1] };
         }
-        else if (n % 2 != 0)
+        else 
         {
-            Console.WriteLine($"{numbers[coefOdd - 1]}, {numbers[coefOdd]}, {numbers[coefOdd + 1]}");
+            return new int[] {numbers[start], numbers[start+1], numbers[end]};
         }
     }
 }
