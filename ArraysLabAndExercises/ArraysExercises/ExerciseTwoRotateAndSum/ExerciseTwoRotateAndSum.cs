@@ -1,13 +1,23 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
     class ExerciseTwoRotateAndSum
 {
         static void Main(string[] args)
         {
 
+=======
+
+
+    class ExerciseTwoRotateAndSum
+    {
+        static void Main(string[] args)
+        {
+            
+>>>>>>> origin/master
             int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             int rotation = int.Parse(Console.ReadLine());
             int[] result = new int[numbers.Length];
