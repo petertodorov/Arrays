@@ -7,30 +7,26 @@ class Program
 {
     static void Main(string[] args)
     {
-        int[] input = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-        int k = input.Length / 4;
-        int[] firstKElements = new int[k];
-        int[] lastKElements= new int[k];
-        int[] middleElements = new int[k * 2];
-        int[] sum = new int[middleElements.Length];
-        for (int i = 0; i < k; i++)
+        int n = int.Parse(Console.ReadLine());
+        bool[] primes = new bool[n+1];
+        for (int i = 2; i <=n; i++)
         {
-            firstKElements[i] = input[i];
-            lastKElements[i] = input[i + (3 * k) ];
+            primes[i] = true;
         }
-        Array.Reverse(firstKElements);
-        Array.Reverse(lastKElements);
-        int[] firstRow = new int[2 * k];
-        firstRow = firstKElements.Concat(lastKElements).ToArray();
-        for (int i = 0; i < middleElements.Length; i++)
+
+        for (int p = 2; p <n; p++)
         {
-            middleElements[i] = input[i + k]; 
+            if (primes[p]==true)
+            {
+                for (int multiplier = 2; multiplier*p <=n; multiplier++)
+                {
+                    primes[multiplier * p] = false;
+                }
+                Console.WriteLine(p + " ");
+
+            }
         }
-        for (int i = 0; i < middleElements.Length; i++)
-        {
-            sum[i] = firstRow[i]+middleElements[i];
-        }
-        Console.WriteLine(String.Join(" ", sum));
+        
     }
 }
 
