@@ -2,42 +2,31 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+class ExerciseSevenCountNumbersForCycle
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        string fullName = "First name: second name:";
+        Console.WriteLine(fullName);
+        Console.WriteLine("Entries =?");
+        int entries = int.Parse(Console.ReadLine());
+        string [][] names = new string [entries][];
+       
+        for (int row = 0; row < entries; row++)
         {
-            int n = int.Parse(Console.ReadLine());
-            int k = int.Parse(Console.ReadLine());
-            int[] numbers = new int[n];
-            numbers[0] = 1;
-            SumLastKNumbers(numbers,k);
-        }
-
-        private static void SumLastKNumbers(int[] numbers, int k)
-        {
-            for (int currentNumber = 1; currentNumber < numbers.Length; currentNumber++)
+           names[row] = new string[2];
+            for (int col= 0; col < 2; col++)
             {
-                int start =  currentNumber- k;
-                int end = currentNumber - 1;
-                int sum = 0;
-                for (int i = start; i <end; i++)
-                {
-                    sum += numbers[i];
-                }
-                numbers[currentNumber] = sum;
-               
+                names[row][col] = Console.ReadLine();
+            } 
+        }
+        for (int i = 0; i < names.Length; i++)
+            {
+            Console.WriteLine(String.Join("" ,names[i]));
             }
-            PrintArray(numbers);
-        }
-
-        private static void PrintArray(int[] numbers)
-        {
-            Console.WriteLine(String.Join(" ", numbers));
-        }
+        //    Console.WriteLine(fullName);
+        //    fullName = string.Format("First name: {0} second name: {1}", names[i], names[i+1]);
     }
 }
